@@ -1,0 +1,25 @@
+disabled_rules:
+  - line_length
+
+opt_in_rules:
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - contains_over_first_not_nil
+  - contains_over_range_nil_comparison
+  - empty_collection_literal
+  - empty_count
+  - empty_string
+  - force_unwrapping
+  - flatmap_over_map_reduce
+  - first_where
+  - last_where
+  - non_overridable_class_declaration
+  - overridden_super_call
+  - private_swiftui_state
+  - reduce_boolean
+  - reduce_into
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - shorthand_optional_binding
+  - sorted_first_last
+  - weak_delegate
