@@ -24,15 +24,12 @@ class AppState: ObservableObject {
     private func fetchMeContact() {
         do {
             let contact = try CNContactStore().unifiedMeContactWithKeys(toFetch: [
-                CNContactGivenNameKey as CNKeyDescriptor,
-                CNContactMiddleNameKey as CNKeyDescriptor,
-                CNContactFamilyNameKey as CNKeyDescriptor,
                 CNContactFormatter.descriptorForRequiredKeys(for: .fullName),
                 CNContactThumbnailImageDataKey as CNKeyDescriptor
             ])
             let formatter = CNContactFormatter()
             formatter.style = .fullName
-            self.userName = formatter.string(from: contact) ?? "\(contact.givenName) \(contact.familyName)"
+            self.userName = formatter.string(from: contact)
             self.userAvatar = contact.thumbnailImageData
         } catch {
             print("Failed to fetch contact: \(error)")

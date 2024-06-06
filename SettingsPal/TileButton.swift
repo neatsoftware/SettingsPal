@@ -90,5 +90,5 @@ private struct TileButtonStyle: ButtonStyle {
 }
 
 #Preview {
-    TileButton(tile: .network)
+    TileButton(tile: .network).environmentObject(AppState())
 }

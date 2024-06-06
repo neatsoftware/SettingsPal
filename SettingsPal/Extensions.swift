@@ -13,6 +13,14 @@ extension Array {
             Array(self[$0..<Swift.min($0 + size, self.count)])
         }
     }
+
+    func slice(from start: Int, to end: Int? = nil) -> Array {
+        let endIndex = end ?? self.count
+        let validStartIndex = Swift.max(0, Swift.min(start, self.count))
+        let validEndIndex = Swift.max(0, Swift.min(endIndex, self.count))
+        guard validStartIndex < validEndIndex else { return [] }
+        return Array(self[validStartIndex..<validEndIndex])
+    }
 }
 
 extension NSImage {

@@ -12,39 +12,21 @@ struct MainView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            UserPaneView()
+            UserPaneView(tiles: Tile.allCases.slice(from: 0, to: 2))
             Divider()
-            PaneView(tiles: [.general, .desktop, .dock, .missionControl, .siri, .spotlight, .language, .notifications, .internetAccounts, .passwords, .users, .accessibility, .screenTime, .extensions, .security])
+            PaneView(tiles: Tile.allCases.slice(from: 2, to: 17))
                 .padding(.bottom, -appState.theme.alternatingPaneOffset)
                 .background(appState.theme.alternatingPaneBgColor)
 
             Divider()
-            PaneView(tiles: [.softwareUpdate, .network, .bluetooth, .sound, .keyboard, .trackpad, .mouse, .displays, .printers, .battery, .dateTime, .sharing, .timeMachine, .startupDisk])
+            PaneView(tiles: Tile.allCases.slice(from: 17))
                 .padding(.top, appState.theme.alternatingPaneOffset)
         }
         .toolbar {
             ToolbarItemGroup(placement: .navigation) {
-                Menu(localize("show_all"), systemImage: "square.grid.4x3.fill") {
-                    ForEach(Tile.allCasesSorted) { tile in
-                        Button(action: { tile.open() }, label: {
-                            if appState.theme.useTileIcon {
-                                Image(nsImage: NSImage(named: tile.icon)?.resized(to: NSSize(width: 18, height: 18)) ?? NSImage())
-                            } else {
-                                if tile.customSymbol {
-                                    Image(nsImage: NSImage(named: tile.symbol)?.resized(to: NSSize(width: 18, height: 18)) ?? NSImage())
-                                } else {
-                                    Image(systemName: tile.symbol)
-                                }
-                            }
-                            Text(appState.theme.titleFor(tile: tile))
-                        })
-                    }
-                }.menuIndicator(.hidden).help(localize("show_all"))
+                TileMenu()
             }
-
-            ToolbarItem {
-                Button("") {}.frame(width: 150).buttonStyle(.plain)
-            }
+            ToolbarItem { Button("") {}.frame(width: 170).buttonStyle(.plain) } // Compresses the search box so it's not so wide
         }
         .navigationTitle("Settings Pal")
         .fixedSize()
@@ -54,19 +36,18 @@ struct MainView: View {
             ZStack {
                 appState.theme.backgroundView
                 if !appState.searchText.isEmpty && appState.theme.searchSpotlight {
-                    Color.black.opacity(0.6)
+                    Color.black.opacity(0.5)
                 }
             }
         }
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
-                NSApp.keyWindow?.makeFirstResponder(nil)
-            })
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: { NSApp.keyWindow?.makeFirstResponder(nil) }) // Prevents a focus ring on the first tile on launch
         }
     }
 }
 
 private struct UserPaneView: View {
+    let tiles: [Tile]
     @Environment(\.colorScheme) private var colorScheme
     @EnvironmentObject private var appState: AppState
 
@@ -113,6 +94,7 @@ private struct UserPaneView: View {
                         }
                         .font(.system(size: 16, weight: .bold))
                         .clipShape(Circle())
+                        .contentShape(Circle())
                     }
                     .buttonStyle(.plain)
                     .help("Grant access to Contacts to display your user info")
@@ -120,7 +102,7 @@ private struct UserPaneView: View {
             }
             .blendMode((appState.searchText.isEmpty || !appState.theme.searchSpotlight) ? .normal : colorScheme == .dark ? .overlay : .multiply)
             Spacer()
-            PaneRowsView(tiles: [.appleId, .familySharing])
+            PaneRowsView(tiles: tiles)
         }
         .padding(EdgeInsets(top: appState.theme.panePadding, leading: appState.theme.panePadding + 13, bottom: appState.theme.panePadding, trailing: appState.theme.panePadding))
         .background(appState.theme.userPaneBgView)
@@ -157,5 +139,5 @@ private struct PaneRowsView: View {
 }
 
 #Preview {
-    MainView()
+    MainView().environmentObject(AppState())
 }

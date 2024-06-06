@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BB0CAA9C2C06D2AF003D2A1D /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CAA9B2C06D2AF003D2A1D /* Tile.swift */; };
+		BB1104192C1151DA00D3D56E /* TileMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1104182C1151DA00D3D56E /* TileMenu.swift */; };
 		BB1A09A72C0CE5F6008C3673 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A09A62C0CE5F6008C3673 /* Theme.swift */; };
 		BB49705A2C096EC000DFC15A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BB4970592C096EC000DFC15A /* Localizable.xcstrings */; };
 		BB75532C2C0E421300AB4671 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB75532B2C0E421300AB4671 /* Credits.rtf */; };
 		BBC171612C06B2D100CF9211 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC171602C06B2D100CF9211 /* App.swift */; };
 		BBC171632C06B2D100CF9211 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC171622C06B2D100CF9211 /* MainView.swift */; };
 		BBC171652C06B2D200CF9211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC171642C06B2D200CF9211 /* Assets.xcassets */; };
-		BBC171682C06B2D200CF9211 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC171672C06B2D200CF9211 /* Preview Assets.xcassets */; };
 		BBD22CD12C0A074600A81536 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD22CD02C0A074600A81536 /* Extensions.swift */; };
 		BBDA95622C0DFDCD004582F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95612C0DFDCD004582F5 /* SettingsView.swift */; };
 		BBDA95642C0DFEEA004582F5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95632C0DFEEA004582F5 /* AppState.swift */; };
@@ -23,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		BB0CAA9B2C06D2AF003D2A1D /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		BB1104182C1151DA00D3D56E /* TileMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMenu.swift; sourceTree = "<group>"; };
 		BB1A09A62C0CE5F6008C3673 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		BB4970592C096EC000DFC15A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		BB5C94382C11300B0063190A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		BBC171602C06B2D100CF9211 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		BBC171622C06B2D100CF9211 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BBC171642C06B2D200CF9211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BBC171672C06B2D200CF9211 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBC171692C06B2D200CF9211 /* SettingsPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SettingsPal.entitlements; sourceTree = "<group>"; };
 		BBD22CD02C0A074600A81536 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BBDA95612C0DFDCD004582F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -87,6 +87,7 @@
 				BBC171622C06B2D100CF9211 /* MainView.swift */,
 				BBDA95612C0DFDCD004582F5 /* SettingsView.swift */,
 				BBDA95652C0E382E004582F5 /* TileButton.swift */,
+				BB1104182C1151DA00D3D56E /* TileMenu.swift */,
 				BB0CAA9B2C06D2AF003D2A1D /* Tile.swift */,
 				BB1A09A62C0CE5F6008C3673 /* Theme.swift */,
 				BBD22CD02C0A074600A81536 /* Extensions.swift */,
@@ -94,17 +95,8 @@
 				BB4970592C096EC000DFC15A /* Localizable.xcstrings */,
 				BBC171692C06B2D200CF9211 /* SettingsPal.entitlements */,
 				BB75532B2C0E421300AB4671 /* Credits.rtf */,
-				BBC171662C06B2D200CF9211 /* Preview Content */,
 			);
 			path = SettingsPal;
-			sourceTree = "<group>";
-		};
-		BBC171662C06B2D200CF9211 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BBC171672C06B2D200CF9211 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC171682C06B2D200CF9211 /* Preview Assets.xcassets in Resources */,
 				BBC171652C06B2D200CF9211 /* Assets.xcassets in Resources */,
 				BB49705A2C096EC000DFC15A /* Localizable.xcstrings in Resources */,
 				BB75532C2C0E421300AB4671 /* Credits.rtf in Resources */,
@@ -213,6 +204,7 @@
 				BBDA95622C0DFDCD004582F5 /* SettingsView.swift in Sources */,
 				BBDA95662C0E382F004582F5 /* TileButton.swift in Sources */,
 				BB0CAA9C2C06D2AF003D2A1D /* Tile.swift in Sources */,
+				BB1104192C1151DA00D3D56E /* TileMenu.swift in Sources */,
 				BBD22CD12C0A074600A81536 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +338,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SettingsPal/Preview Content\"";
 				DEVELOPMENT_TEAM = TD687FJHSE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -374,7 +365,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SettingsPal/Preview Content\"";
 				DEVELOPMENT_TEAM = TD687FJHSE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;

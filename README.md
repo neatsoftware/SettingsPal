@@ -1,7 +1,7 @@
 # Settings Pal
 
-Classic Preferences pane for macOS 13+ & alternate themes.
-(Not a full recreation.) Launches the default Settings app to the appropriate section.
+Classic Preferences pane for macOS 13+ & modern theme.  
+Launches the default Settings app to the appropriate section. (Not a full recreation)
 
 ---
 

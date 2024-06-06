@@ -21,15 +21,19 @@ struct SettingsPalMainScene: Scene {
 
     var body: some Scene {
         WindowGroup {
-            MainView()
-                .environmentObject(appState)
+            MainView().environmentObject(appState)
         }
         .windowResizability(.contentSize)
-        .windowToolbarStyle(.unified(showsTitle: true))
+        .windowToolbarStyle(.unified)
+        .commands {
+            CommandGroup(replacing: .newItem) {}
+            CommandGroup(after: .toolbar) {
+                TileMenuItems().environmentObject(appState)
+            }
+        }
 
         Settings {
-            SettingsView()
-                .environmentObject(appState)
+            SettingsView().environmentObject(appState)
         }
         .windowResizability(.contentSize)
         .windowToolbarStyle(.expanded)
@@ -37,18 +41,21 @@ struct SettingsPalMainScene: Scene {
 }
 
 class SettingsPalAppDelegate: NSObject, NSApplicationDelegate {
+    override init() {
+        super.init()
+        UserDefaults.standard.set(false, forKey: "NSFullScreenMenuItemEverywhere")
+    }
+
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        NSWindow.allowsAutomaticWindowTabbing = false
+    }
+
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         return true
     }
 
     func applicationDockMenu(_ sender: NSApplication) -> NSMenu? {
-        let menu = NSMenu()
-        menu.items = Tile.allCasesSorted.map({
-            let item = NSMenuItem(title: $0.title, action: #selector(openSettings), keyEquivalent: "")
-            item.representedObject = $0
-            return item
-        })
-        return menu
+        return TileMenu.asNSMenu(action: #selector(openSettings))
     }
 
     @objc private func openSettings(_ sender: NSMenuItem) {
