@@ -11,7 +11,20 @@
 		BB1104192C1151DA00D3D56E /* TileMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1104182C1151DA00D3D56E /* TileMenu.swift */; };
 		BB1A09A72C0CE5F6008C3673 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A09A62C0CE5F6008C3673 /* Theme.swift */; };
 		BB49705A2C096EC000DFC15A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BB4970592C096EC000DFC15A /* Localizable.xcstrings */; };
+		BB5F9E392C339F7D00D2ECC7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC171622C06B2D100CF9211 /* MainView.swift */; };
+		BB5F9E3A2C339F7D00D2ECC7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A09A62C0CE5F6008C3673 /* Theme.swift */; };
+		BB5F9E3B2C339F7D00D2ECC7 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95632C0DFEEA004582F5 /* AppState.swift */; };
+		BB5F9E3C2C339F7D00D2ECC7 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC171602C06B2D100CF9211 /* App.swift */; };
+		BB5F9E3D2C339F7D00D2ECC7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95612C0DFDCD004582F5 /* SettingsView.swift */; };
+		BB5F9E3E2C339F7D00D2ECC7 /* TileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95652C0E382E004582F5 /* TileButton.swift */; };
+		BB5F9E3F2C339F7D00D2ECC7 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CAA9B2C06D2AF003D2A1D /* Tile.swift */; };
+		BB5F9E402C339F7D00D2ECC7 /* TileMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1104182C1151DA00D3D56E /* TileMenu.swift */; };
+		BB5F9E412C339F7D00D2ECC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD22CD02C0A074600A81536 /* Extensions.swift */; };
+		BB5F9E442C339F7D00D2ECC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC171642C06B2D200CF9211 /* Assets.xcassets */; };
+		BB5F9E452C339F7D00D2ECC7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BB4970592C096EC000DFC15A /* Localizable.xcstrings */; };
+		BB5F9E462C339F7D00D2ECC7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB75532B2C0E421300AB4671 /* Credits.rtf */; };
 		BB75532C2C0E421300AB4671 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB75532B2C0E421300AB4671 /* Credits.rtf */; };
+		BB8238912D36089300A0ABB2 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = BB8238902D36089300A0ABB2 /* Sparkle */; };
 		BBC171612C06B2D100CF9211 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC171602C06B2D100CF9211 /* App.swift */; };
 		BBC171632C06B2D100CF9211 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC171622C06B2D100CF9211 /* MainView.swift */; };
 		BBC171652C06B2D200CF9211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC171642C06B2D200CF9211 /* Assets.xcassets */; };
@@ -26,15 +39,13 @@
 		BB1104182C1151DA00D3D56E /* TileMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMenu.swift; sourceTree = "<group>"; };
 		BB1A09A62C0CE5F6008C3673 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		BB4970592C096EC000DFC15A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		BB5C94382C11300B0063190A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BB5C943B2C1130F90063190A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		BB5C943C2C1130FA0063190A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BB5F9E4B2C339F7D00D2ECC7 /* Settings Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Settings Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB75532B2C0E421300AB4671 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		BB82388E2D36043F00A0ABB2 /* SettingsPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SettingsPal.entitlements; sourceTree = "<group>"; };
 		BBC1715D2C06B2D100CF9211 /* Settings Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Settings Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC171602C06B2D100CF9211 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		BBC171622C06B2D100CF9211 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BBC171642C06B2D200CF9211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BBC171692C06B2D200CF9211 /* SettingsPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SettingsPal.entitlements; sourceTree = "<group>"; };
 		BBD22CD02C0A074600A81536 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BBDA95612C0DFDCD004582F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BBDA95632C0DFEEA004582F5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -42,31 +53,36 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BBC1715A2C06B2D100CF9211 /* Frameworks */ = {
+		BB5F9E422C339F7D00D2ECC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBC1715A2C06B2D100CF9211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8238912D36089300A0ABB2 /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB5C943A2C1130E70063190A /* screenshots */ = {
+		BB82388F2D36089300A0ABB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB5C943B2C1130F90063190A /* 1.png */,
-				BB5C943C2C1130FA0063190A /* 2.png */,
 			);
-			path = screenshots;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BBC171542C06B2D100CF9211 = {
 			isa = PBXGroup;
 			children = (
 				BBC1715F2C06B2D100CF9211 /* SettingsPal */,
-				BB5C94382C11300B0063190A /* README.md */,
-				BB5C943A2C1130E70063190A /* screenshots */,
+				BB82388F2D36089300A0ABB2 /* Frameworks */,
 				BBC1715E2C06B2D100CF9211 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				BBC1715D2C06B2D100CF9211 /* Settings Pal.app */,
+				BB5F9E4B2C339F7D00D2ECC7 /* Settings Pal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +110,7 @@
 				BBD22CD02C0A074600A81536 /* Extensions.swift */,
 				BBC171642C06B2D200CF9211 /* Assets.xcassets */,
 				BB4970592C096EC000DFC15A /* Localizable.xcstrings */,
-				BBC171692C06B2D200CF9211 /* SettingsPal.entitlements */,
+				BB82388E2D36043F00A0ABB2 /* SettingsPal.entitlements */,
 				BB75532B2C0E421300AB4671 /* Credits.rtf */,
 			);
 			path = SettingsPal;
@@ -102,6 +119,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BB5F9E372C339F7D00D2ECC7 /* Settings Pal - App Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5F9E482C339F7D00D2ECC7 /* Build configuration list for PBXNativeTarget "Settings Pal - App Store" */;
+			buildPhases = (
+				BB5F9E382C339F7D00D2ECC7 /* Sources */,
+				BB5F9E422C339F7D00D2ECC7 /* Frameworks */,
+				BB5F9E432C339F7D00D2ECC7 /* Resources */,
+				BB5F9E472C339F7D00D2ECC7 /* ShellScript */,
+				BBE5E7A32D3BFA6E00F951B0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Settings Pal - App Store";
+			packageProductDependencies = (
+			);
+			productName = "Settings Classic";
+			productReference = BB5F9E4B2C339F7D00D2ECC7 /* Settings Pal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BBC1715C2C06B2D100CF9211 /* Settings Pal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBC1716C2C06B2D200CF9211 /* Build configuration list for PBXNativeTarget "Settings Pal" */;
@@ -110,6 +148,7 @@
 				BBC1715A2C06B2D100CF9211 /* Frameworks */,
 				BBC1715B2C06B2D100CF9211 /* Resources */,
 				BB24CD1A2C0CCA1300FD9C46 /* ShellScript */,
+				BBE5E7A22D3BFA5600F951B0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -117,6 +156,7 @@
 			);
 			name = "Settings Pal";
 			packageProductDependencies = (
+				BB8238902D36089300A0ABB2 /* Sparkle */,
 			);
 			productName = "Settings Classic";
 			productReference = BBC1715D2C06B2D100CF9211 /* Settings Pal.app */;
@@ -130,7 +170,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					BBC1715C2C06B2D100CF9211 = {
 						CreatedOnToolsVersion = 15.4;
@@ -148,17 +188,29 @@
 			);
 			mainGroup = BBC171542C06B2D100CF9211;
 			packageReferences = (
+				BB5F9E4C2C33A01400D2ECC7 /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			productRefGroup = BBC1715E2C06B2D100CF9211 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BBC1715C2C06B2D100CF9211 /* Settings Pal */,
+				BB5F9E372C339F7D00D2ECC7 /* Settings Pal - App Store */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BB5F9E432C339F7D00D2ECC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5F9E442C339F7D00D2ECC7 /* Assets.xcassets in Resources */,
+				BB5F9E452C339F7D00D2ECC7 /* Localizable.xcstrings in Resources */,
+				BB5F9E462C339F7D00D2ECC7 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBC1715B2C06B2D100CF9211 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,9 +242,81 @@
 			shellPath = /bin/sh;
 			shellScript = "# Support for M1 Macs: Homebrew is installed on /opt/homebrew/ by default\nPATH=/opt/homebrew/bin/:$PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		BB5F9E472C339F7D00D2ECC7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Support for M1 Macs: Homebrew is installed on /opt/homebrew/ by default\nPATH=/opt/homebrew/bin/:$PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		BBE5E7A22D3BFA5600F951B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sed -i '' \"s/CURRENT_YEAR/$(date +%Y)/g\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE5E7A32D3BFA6E00F951B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sed -i '' \"s/CURRENT_YEAR/$(date +%Y)/g\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BB5F9E382C339F7D00D2ECC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5F9E392C339F7D00D2ECC7 /* MainView.swift in Sources */,
+				BB5F9E3A2C339F7D00D2ECC7 /* Theme.swift in Sources */,
+				BB5F9E3B2C339F7D00D2ECC7 /* AppState.swift in Sources */,
+				BB5F9E3C2C339F7D00D2ECC7 /* App.swift in Sources */,
+				BB5F9E3D2C339F7D00D2ECC7 /* SettingsView.swift in Sources */,
+				BB5F9E3E2C339F7D00D2ECC7 /* TileButton.swift in Sources */,
+				BB5F9E3F2C339F7D00D2ECC7 /* Tile.swift in Sources */,
+				BB5F9E402C339F7D00D2ECC7 /* TileMenu.swift in Sources */,
+				BB5F9E412C339F7D00D2ECC7 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBC171592C06B2D100CF9211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,11 +336,59 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BB5F9E492C339F7D00D2ECC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SettingsPal/SettingsPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = TD687FJHSE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To display your name and avatar";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DAPP_STORE";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB5F9E4A2C339F7D00D2ECC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SettingsPal/SettingsPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = TD687FJHSE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To display your name and avatar";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DAPP_STORE";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BBC1716A2C06B2D200CF9211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -246,6 +418,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -264,11 +438,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SettingsPal/Info.plist;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = neat.software.SettingsPal;
+				PRODUCT_NAME = "Settings Pal";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -279,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -309,6 +489,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -321,10 +503,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SettingsPal/Info.plist;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = neat.software.SettingsPal;
+				PRODUCT_NAME = "Settings Pal";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -333,25 +519,19 @@
 		BBC1716D2C06B2D200CF9211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SettingsPal/SettingsPal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = TD687FJHSE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSContactsUsageDescription = "To display your name and avatar";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Neat Software Co.\nAll rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = neat.software.SettingsPal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -360,25 +540,19 @@
 		BBC1716E2C06B2D200CF9211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SettingsPal/SettingsPal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = TD687FJHSE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSContactsUsageDescription = "To display your name and avatar";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Neat Software Co.\nAll rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = neat.software.SettingsPal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -387,6 +561,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BB5F9E482C339F7D00D2ECC7 /* Build configuration list for PBXNativeTarget "Settings Pal - App Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5F9E492C339F7D00D2ECC7 /* Debug */,
+				BB5F9E4A2C339F7D00D2ECC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BBC171582C06B2D100CF9211 /* Build configuration list for PBXProject "SettingsPal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -406,6 +589,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB5F9E4C2C33A01400D2ECC7 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = exactVersion;
+				version = 2.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB8238902D36089300A0ABB2 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB5F9E4C2C33A01400D2ECC7 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BBC171552C06B2D100CF9211 /* Project object */;
 }

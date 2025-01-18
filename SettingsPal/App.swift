@@ -30,6 +30,13 @@ struct SettingsPalMainScene: Scene {
             CommandGroup(after: .toolbar) {
                 TileMenuItems().environmentObject(appState)
             }
+            #if !APP_STORE
+            CommandGroup(after: .appInfo) {
+                Button(localize("check_for_updates")) {
+                    appState.sparkle.checkForUpdates()
+                }
+            }
+            #endif
         }
 
         Settings {
