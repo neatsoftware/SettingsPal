@@ -25,9 +25,21 @@ struct SettingsView: View {
                     }.padding(12)
                 }
             }
-            .padding(20)
+            .padding(30)
             .tabItem {
                 Label("General", systemImage: "gearshape")
+            }
+
+            VStack {
+                GroupBox {
+                    AppMarketListView()
+                } label: {
+                    Text("More Apps by Neat Software").font(.headline).padding(.bottom, 10)
+                }
+            }
+            .padding(30)
+            .tabItem {
+                Label("About", systemImage: "info.circle")
             }
         }
         .navigationTitle("Settings")

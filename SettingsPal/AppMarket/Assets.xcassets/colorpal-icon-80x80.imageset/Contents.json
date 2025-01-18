@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "colorpal-icon-80×80.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

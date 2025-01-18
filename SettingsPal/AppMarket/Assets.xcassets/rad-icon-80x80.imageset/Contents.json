@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "rad-icon-80x80.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

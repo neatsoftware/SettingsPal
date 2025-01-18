@@ -4,6 +4,12 @@
     "" : {
 
     },
+    "About" : {
+
+    },
+    "Ad" : {
+
+    },
     "appleId_desc" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -53,6 +59,9 @@
 
     },
     "Grant access to Contacts to display your user info" : {
+
+    },
+    "More Apps by Neat Software" : {
 
     },
     "Settings" : {

@@ -32,6 +32,20 @@
 		BBDA95622C0DFDCD004582F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95612C0DFDCD004582F5 /* SettingsView.swift */; };
 		BBDA95642C0DFEEA004582F5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95632C0DFEEA004582F5 /* AppState.swift */; };
 		BBDA95662C0E382F004582F5 /* TileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA95652C0E382E004582F5 /* TileButton.swift */; };
+		BBE5E7BE2D3BFFEE00F951B0 /* AppMarketManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7BB2D3BFFEE00F951B0 /* AppMarketManifest.swift */; };
+		BBE5E7BF2D3BFFEE00F951B0 /* AppMarketAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7B92D3BFFEE00F951B0 /* AppMarketAppView.swift */; };
+		BBE5E7C02D3BFFEE00F951B0 /* AppMarketAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7B72D3BFFEE00F951B0 /* AppMarketAdView.swift */; };
+		BBE5E7C12D3BFFEE00F951B0 /* AppMarketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7BA2D3BFFEE00F951B0 /* AppMarketListView.swift */; };
+		BBE5E7C22D3BFFEE00F951B0 /* AppMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7B82D3BFFEE00F951B0 /* AppMarketApp.swift */; };
+		BBE5E7C32D3BFFEE00F951B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE5E7BC2D3BFFEE00F951B0 /* Assets.xcassets */; };
+		BBE5E7C42D3BFFEE00F951B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE5E7BC2D3BFFEE00F951B0 /* Assets.xcassets */; };
+		BBE5E7C52D3BFFEE00F951B0 /* AppMarketManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7BB2D3BFFEE00F951B0 /* AppMarketManifest.swift */; };
+		BBE5E7C62D3BFFEE00F951B0 /* AppMarketAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7B92D3BFFEE00F951B0 /* AppMarketAppView.swift */; };
+		BBE5E7C72D3BFFEE00F951B0 /* AppMarketAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7B72D3BFFEE00F951B0 /* AppMarketAdView.swift */; };
+		BBE5E7C82D3BFFEE00F951B0 /* AppMarketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7BA2D3BFFEE00F951B0 /* AppMarketListView.swift */; };
+		BBE5E7C92D3BFFEE00F951B0 /* AppMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7B82D3BFFEE00F951B0 /* AppMarketApp.swift */; };
+		BBE5E7CB2D3BFFF600F951B0 /* DividedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7CA2D3BFFF600F951B0 /* DividedStack.swift */; };
+		BBE5E7CC2D3BFFF600F951B0 /* DividedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5E7CA2D3BFFF600F951B0 /* DividedStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +64,13 @@
 		BBDA95612C0DFDCD004582F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BBDA95632C0DFEEA004582F5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		BBDA95652C0E382E004582F5 /* TileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileButton.swift; sourceTree = "<group>"; };
+		BBE5E7B72D3BFFEE00F951B0 /* AppMarketAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketAdView.swift; sourceTree = "<group>"; };
+		BBE5E7B82D3BFFEE00F951B0 /* AppMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketApp.swift; sourceTree = "<group>"; };
+		BBE5E7B92D3BFFEE00F951B0 /* AppMarketAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketAppView.swift; sourceTree = "<group>"; };
+		BBE5E7BA2D3BFFEE00F951B0 /* AppMarketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketListView.swift; sourceTree = "<group>"; };
+		BBE5E7BB2D3BFFEE00F951B0 /* AppMarketManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketManifest.swift; sourceTree = "<group>"; };
+		BBE5E7BC2D3BFFEE00F951B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBE5E7CA2D3BFFF600F951B0 /* DividedStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividedStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +133,23 @@
 				BB4970592C096EC000DFC15A /* Localizable.xcstrings */,
 				BB82388E2D36043F00A0ABB2 /* SettingsPal.entitlements */,
 				BB75532B2C0E421300AB4671 /* Credits.rtf */,
+				BBE5E7BD2D3BFFEE00F951B0 /* AppMarket */,
 			);
 			path = SettingsPal;
+			sourceTree = "<group>";
+		};
+		BBE5E7BD2D3BFFEE00F951B0 /* AppMarket */ = {
+			isa = PBXGroup;
+			children = (
+				BBE5E7CA2D3BFFF600F951B0 /* DividedStack.swift */,
+				BBE5E7B72D3BFFEE00F951B0 /* AppMarketAdView.swift */,
+				BBE5E7B82D3BFFEE00F951B0 /* AppMarketApp.swift */,
+				BBE5E7B92D3BFFEE00F951B0 /* AppMarketAppView.swift */,
+				BBE5E7BA2D3BFFEE00F951B0 /* AppMarketListView.swift */,
+				BBE5E7BB2D3BFFEE00F951B0 /* AppMarketManifest.swift */,
+				BBE5E7BC2D3BFFEE00F951B0 /* Assets.xcassets */,
+			);
+			path = AppMarket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +243,7 @@
 			files = (
 				BB5F9E442C339F7D00D2ECC7 /* Assets.xcassets in Resources */,
 				BB5F9E452C339F7D00D2ECC7 /* Localizable.xcstrings in Resources */,
+				BBE5E7C42D3BFFEE00F951B0 /* Assets.xcassets in Resources */,
 				BB5F9E462C339F7D00D2ECC7 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +254,7 @@
 			files = (
 				BBC171652C06B2D200CF9211 /* Assets.xcassets in Resources */,
 				BB49705A2C096EC000DFC15A /* Localizable.xcstrings in Resources */,
+				BBE5E7C32D3BFFEE00F951B0 /* Assets.xcassets in Resources */,
 				BB75532C2C0E421300AB4671 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +345,12 @@
 			files = (
 				BB5F9E392C339F7D00D2ECC7 /* MainView.swift in Sources */,
 				BB5F9E3A2C339F7D00D2ECC7 /* Theme.swift in Sources */,
+				BBE5E7C52D3BFFEE00F951B0 /* AppMarketManifest.swift in Sources */,
+				BBE5E7C62D3BFFEE00F951B0 /* AppMarketAppView.swift in Sources */,
+				BBE5E7C72D3BFFEE00F951B0 /* AppMarketAdView.swift in Sources */,
+				BBE5E7C82D3BFFEE00F951B0 /* AppMarketListView.swift in Sources */,
+				BBE5E7CB2D3BFFF600F951B0 /* DividedStack.swift in Sources */,
+				BBE5E7C92D3BFFEE00F951B0 /* AppMarketApp.swift in Sources */,
 				BB5F9E3B2C339F7D00D2ECC7 /* AppState.swift in Sources */,
 				BB5F9E3C2C339F7D00D2ECC7 /* App.swift in Sources */,
 				BB5F9E3D2C339F7D00D2ECC7 /* SettingsView.swift in Sources */,
@@ -323,6 +367,12 @@
 			files = (
 				BBC171632C06B2D100CF9211 /* MainView.swift in Sources */,
 				BB1A09A72C0CE5F6008C3673 /* Theme.swift in Sources */,
+				BBE5E7BE2D3BFFEE00F951B0 /* AppMarketManifest.swift in Sources */,
+				BBE5E7BF2D3BFFEE00F951B0 /* AppMarketAppView.swift in Sources */,
+				BBE5E7C02D3BFFEE00F951B0 /* AppMarketAdView.swift in Sources */,
+				BBE5E7C12D3BFFEE00F951B0 /* AppMarketListView.swift in Sources */,
+				BBE5E7CC2D3BFFF600F951B0 /* DividedStack.swift in Sources */,
+				BBE5E7C22D3BFFEE00F951B0 /* AppMarketApp.swift in Sources */,
 				BBDA95642C0DFEEA004582F5 /* AppState.swift in Sources */,
 				BBC171612C06B2D100CF9211 /* App.swift in Sources */,
 				BBDA95622C0DFDCD004582F5 /* SettingsView.swift in Sources */,
