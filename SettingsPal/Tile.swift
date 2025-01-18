@@ -48,7 +48,7 @@ enum Tile: String, Identifiable, CaseIterable {
         case .dock: "Desktop-Settings.extension"
         case .missionControl: "Desktop-Settings.extension?MissionControl"
         case .siri: "Siri-Settings.extension"
-        case .spotlight: "Siri-Settings.extension?Spotlight"
+        case .spotlight: "Spotlight-Settings.extension"
         case .language: "Localization-Settings.extension"
         case .notifications: "Notifications-Settings.extension"
         case .internetAccounts: "Internet-Accounts-Settings.extension"
