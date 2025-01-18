@@ -10,6 +10,14 @@ import SwiftUI
 enum Theme: Int, CaseIterable {
     case classic, modern
 
+    #if APP_STORE
+    // App Store won't allow redistributing the classic icon images
+    static let `default` = Theme.modern
+    static let allCases: [Theme] = [.modern]
+    #else
+    static let `default` = Theme.classic
+    #endif
+
     var title: String {
         switch self {
         case .classic: "Classic"
